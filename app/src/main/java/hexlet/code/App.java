@@ -1,7 +1,7 @@
 package hexlet.code;
 
 public class App {
-public static void main(String[] args){
-    Cli.greeting();
-}
+    public static void main(String[] args) {
+        Cli.greeting();
+    }
 }

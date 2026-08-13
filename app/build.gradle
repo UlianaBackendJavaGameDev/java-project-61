@@ -9,6 +9,24 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
     id 'com.github.ben-manes.versions' version'0.51.0'
+    id 'com.diffplug.spotless' version '6.25.0'
+    id 'org.sonarqube' version '7.3.1.8318'
+}
+spotless{
+    java{
+        importOrder()
+        removeUnusedImports()
+        palantirJavaFormat() // Форматтер от Palantir, устойчивый к изменениям JDK
+        formatAnnotations()
+    }
+}
+
+sonar {
+    properties {
+        property "sonar.projectKey", "UlianaBackendJavaGameDev_java-project-61"
+        property "sonar.organization", "ulianapythonbackenddeveloper-1"
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
 }
 
 repositories {
