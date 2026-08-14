@@ -1,29 +1,29 @@
 package hexlet.code;
 
 import hexlet.code.games.Calc;
+import hexlet.code.games.Gcd; // ДОБАВИЛИ ИМПОРТ
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        // Создаем сканер один раз в самом начале
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter the game number and press Enter.");
         System.out.println("1 - Greet");
         System.out.println("2 - Even");
         System.out.println("3 - Calc");
+        System.out.println("4 - GCD"); // ДОБАВИЛИ В МЕНЮ
         System.out.println("0 - Exit");
 
         System.out.print("Your choice: ");
 
         int choice = -1;
-        // Пытаемся прочитать число. Если ничего нет или ошибка - choice останется -1
         if (scanner.hasNextLine()) {
             String input = scanner.nextLine().trim();
             try {
                 choice = Integer.parseInt(input);
             } catch (NumberFormatException e) {
-                // Если ввели не число, choice останется -1
+                // ничего не делаем, choice остается -1
             }
         }
 
@@ -37,6 +37,9 @@ public class App {
             case 3:
                 Calc.startGame();
                 break;
+            case 4: // ДОБАВИЛИ ВЫЗОВ ИГРЫ
+                Gcd.startGame();
+                break;
             case 0:
                 System.out.println("Goodbye!");
                 break;
@@ -44,7 +47,6 @@ public class App {
                 System.out.println("Wrong choice. Please try again.");
         }
 
-        // Закрываем сканер только САМОМ В КОНЦЕ
         scanner.close();
     }
 }
