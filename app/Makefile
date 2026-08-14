@@ -1,5 +1,5 @@
 setup:
-	cd code/app && ../gradlew clean install
+	../gradlew clean install
 
 run-dist:
 	../gradlew run --console=plain
