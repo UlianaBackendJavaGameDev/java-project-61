@@ -2,7 +2,8 @@ package hexlet.code;
 
 import hexlet.code.games.Calc;
 import hexlet.code.games.Gcd;
-import hexlet.code.games.Progression; // ИМПОРТИРУЕМ НОВУЮ ИГРУ
+import hexlet.code.games.Progression;
+import hexlet.code.games.Prime; // ИМПОРТИРУЕМ НОВУЮ ИГРУ
 import java.util.Scanner;
 
 public class App {
@@ -14,7 +15,8 @@ public class App {
         System.out.println("2 - Even");
         System.out.println("3 - Calc");
         System.out.println("4 - GCD");
-        System.out.println("5 - Progression"); // ДОБАВЛЯЕМ В МЕНЮ
+        System.out.println("5 - Progression");
+        System.out.println("6 - Prime"); // ДОБАВЛЯЕМ В МЕНЮ
         System.out.println("0 - Exit");
 
         System.out.print("Your choice: ");
@@ -42,8 +44,11 @@ public class App {
             case 4:
                 Gcd.startGame();
                 break;
-            case 5: // ВЫЗЫВАЕМ НОВУЮ ИГРУ
+            case 5:
                 Progression.startGame();
+                break;
+            case 6: // ВЫЗЫВАЕМ НОВУЮ ИГРУ
+                Prime.startGame();
                 break;
             case 0:
                 System.out.println("Goodbye!");
