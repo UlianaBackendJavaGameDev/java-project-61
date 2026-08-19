@@ -1,5 +1,7 @@
 setup:
-	java -cp . gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain clean install
+	chmod +x gradlew && ./gradlew clean install
+
+
 
 run-dist:
 	java -cp . gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain run --console=plain
