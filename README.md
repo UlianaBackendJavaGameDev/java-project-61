@@ -30,19 +30,19 @@ Installation & Setup
 
     ./build/install/brain-games/bin/brain-games
 
-Games & Demos
-1. Parity Check (brain-even)
+# Games & Demos
+# 1. Parity Check (brain-even)
 
-Determines whether a randomly generated number is even. The player answers with yes or no.
-2. Calculator (brain-calc)
+# Determines whether a randomly generated number is even. The player answers with yes or no.
+## 2. Calculator (brain-calc)
 
-Calculates the result of a random mathematical expression (addition, subtraction, or multiplication).
-3. Greatest Common Divisor (brain-gcd)
+# Calculates the result of a random mathematical expression (addition, subtraction, or multiplication).
+## 3. Greatest Common Divisor (brain-gcd)
 
-Finds the greatest common divisor (GCD) of two random numbers.
-4. Arithmetic Progression (brain-progression)
+# Finds the greatest common divisor (GCD) of two random numbers.
+## 4. Arithmetic Progression (brain-progression)
 
-Finds the missing number in an arithmetic progression sequence marked by ...
-5. Prime Number (brain-prime)
+# Finds the missing number in an arithmetic progression sequence marked by ...
+## 5. Prime Number (brain-prime)
 
-Determines whether a given number is prime. The player answers with yes or no.
+# Determines whether a given number is prime. The player answers with yes or no.
