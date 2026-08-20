@@ -1,10 +1,14 @@
-setup:
-	chmod +x gradlew && ./gradlew clean install
-
-
+run:
+	./gradlew run --console=plain
 
 run-dist:
-	java -cp . gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain run --console=plain
+	./gradlew installDist
+	./build/install/app/bin/app
 
-test:
-	java -cp . gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain test
+.PHONY: build
+build:
+	./gradlew clean build
+
+.PHONY: check
+check:
+	./gradlew check
