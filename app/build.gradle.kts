@@ -26,7 +26,9 @@ java {
 }
 spotless{
     java{
-        googleJavaFormat()
+        importOrder()
+        googleJavaFormat().aosp()
+        formatAnnotations()
         trimTrailingWhitespace()
         endWithNewline()
         removeUnusedImports()
