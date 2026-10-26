@@ -23,7 +23,7 @@ cd java-project-61
 ## Использование
 
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
-
+[![asciicast](https://asciinema.org/a/4tz4ceLpCHZYz3kq.svg)](https://asciinema.org/a/4tz4ceLpCHZYz3kq)
 ---
 
 <details>
