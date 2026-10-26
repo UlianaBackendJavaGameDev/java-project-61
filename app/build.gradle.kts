@@ -32,3 +32,6 @@ spotless{
         removeUnusedImports()
     }
 }
+tasks.getByName("run", JavaExec::class){
+    standardInput = System.`in`
+}
