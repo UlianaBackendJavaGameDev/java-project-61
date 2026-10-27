@@ -28,11 +28,13 @@ public class Engine {
                                 + "' is wrong answer ;(. Correct answer was '"
                                 + correctAnswer
                                 + "'.");
-                System.out.println("Let's try again, " + userName + "!");
-                return;
+                System.out.println("Let's try again, " + userName + "!");;
+                System.exit(0);
             }
             System.out.println("Correct!");
         }
         System.out.println("Congratulations, " + userName + "!");
+        System.exit(0);
     }
+
 }
