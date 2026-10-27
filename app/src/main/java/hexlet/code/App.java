@@ -25,16 +25,23 @@ public class App {
         switch (choice) {
             case "1":
                 Cli.greeting();
+                System.exit(0);
+                break;
             case "2":
                 Even.run();
+                break;
             case "3":
                 Calc.run();
+                break;
             case "4":
                 Gcd.run();
+                break;
             case "5":
                 Progression.run();
+                break;
             case "6":
                 Prime.run();
+                break;
             case "0":
                 break;
             default:
