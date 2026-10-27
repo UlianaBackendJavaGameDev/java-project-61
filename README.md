@@ -26,6 +26,7 @@ cd java-project-61
 [![asciicast](https://asciinema.org/a/4tz4ceLpCHZYz3kq.svg)](https://asciinema.org/a/4tz4ceLpCHZYz3kq)
 [![asciicast](https://asciinema.org/a/01XZ0FtAkJbkCqc9.svg)](https://asciinema.org/a/01XZ0FtAkJbkCqc9)
 [![asciicast](https://asciinema.org/a/hyOADDswW4JmscSP.svg)](https://asciinema.org/a/hyOADDswW4JmscSP)
+[![asciicast](https://asciinema.org/a/3or497dUfUn3sEtB.svg)](https://asciinema.org/a/3or497dUfUn3sEtB)
 ---
 
 <details>
