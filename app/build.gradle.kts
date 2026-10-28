@@ -36,3 +36,4 @@ spotless{
 tasks.getByName("run", JavaExec::class){
     standardInput = System.`in`
 }
+// test
